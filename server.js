@@ -26,7 +26,7 @@ const startServer = async() => {
             type Query {
                 getTodos: [Todo] 
                 getAllUsers: [User]
-                getUser(id: ID!): User
+                getUser(id: ID!): User 
             }
         `,
         resolvers: {
